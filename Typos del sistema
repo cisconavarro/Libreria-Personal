@@ -1,0 +1,7 @@
+*----------------------------------------------------------------------*
+*   T Y P E - P O O L S                                                *
+*----------------------------------------------------------------------*
+TYPE-POOLS:
+truxs, " Pools general de TYPOS.
+icon,  " Tipos de ICONOS Del Sistema en SAP.
+slis.  " Contiene la declaración de todas las estructuras y tablas estándar necesarias para la creación de un reporte ALV.
