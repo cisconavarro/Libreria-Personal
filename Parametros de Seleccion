@@ -1,0 +1,11 @@
+*----------------------------------------------------------------------*
+*   P A R Á M E T R O S   D E  S E L E C C I Ó N                       *
+*----------------------------------------------------------------------*
+SELECTION-SCREEN FUNCTION KEY 1.
+
+SELECTION-SCREEN BEGIN OF BLOCK block_b10 WITH FRAME TITLE TEXT-b10.
+PARAMETERS:
+  p_file   LIKE ibipparms-path.        " Parametro de Ruta de Archivo.
+SELECTION-SCREEN END OF BLOCK block_b10.
+
+" Estructura - ibipparms-path.
