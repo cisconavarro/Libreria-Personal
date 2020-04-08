@@ -9,3 +9,19 @@ PARAMETERS:
 SELECTION-SCREEN END OF BLOCK block_b10.
 
 " Estructura - ibipparms-path.
+
+INITIALIZATION.
+*----------------------------------------------------------------------*
+* A T  S E L E C T I O N  S C R E E N  O U T P U T                     *
+*----------------------------------------------------------------------*
+* Marcar como requerido el campo archivo - muestra un mensaje para 
+* Señalar campo requerido en gui de usaurio.
+*----------------------------------------------------------------------*
+AT SELECTION-SCREEN OUTPUT.
+
+  LOOP AT SCREEN.
+    IF screen-name = 'P_FILE'.
+      screen-required = 2.
+      MODIFY SCREEN.
+    ENDIF.
+  ENDLOOP.
